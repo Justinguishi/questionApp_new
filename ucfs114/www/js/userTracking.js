@@ -30,7 +30,7 @@ var userMarker;
 		
 		mymap.setView([position.coords.latitude,position.coords.longitude],13);
 
-		getDistance1();
+		getDistance();
 		}
 		
  
@@ -59,7 +59,7 @@ function getDistanceFromPoint(position) {
 
 		var distance = calculateDistance(position.coords.latitude, position.coords.longitude, lat,lng, 'K');
 
-		if (distance<10) {alert('UCL is arriving!');}
+		if (distance<1) {alert('UCL is arriving!');}
 		
 
 		}
