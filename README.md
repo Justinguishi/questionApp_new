@@ -90,5 +90,18 @@ mobile app should guarantee each function can run smoothly as well.
 |uczl374-questions |uploadData1.js| upload the question form to the database|	
 |uczl374-questions |userTracking.js| Positioning the user|	
 |uczl374-questions |utilities.js| get the port number|	
- 
+|uczl374-quiz |index.html| Foundation of this web-base questionApp|
+|uczl374-quiz |LeafletGeoJSON2.html|Insert a basic map in the right-hand menu|
+|uczl374-quiz  |helpDocument_quiz.html| link the help document|	 
+|uczl374-quiz  |leaflet.js| provide a simple empty map|	
+|uczl374-quiz  |leafletFunction.js| add polygon and the earthquakes data on that map|	
+|uczl374-quiz  |AJAX.js| process the AJAX request|	
+|uczl374-quiz  |getData.js| load the quiz points from database and show them on map|	
+|uczl374-quiz  |rhMenu.js| UCL logo function|	
+|uczl374-quiz |startup.js| trigger the function when running the web page |	
+|uczl374-quiz  |uploadData.js| upload the users' answers to the database|	
+|uczl374-quiz  |userTracking.js| Positioning the user|	
+|uczl374-quiz |utilities.js| get the port number|	
+|uczl374-quiz |closestFromPoint.js| calculate the distance between user and quiz points,then pop up the closes one|	
+|uczl374-quiz |correctNumber.js| get the correct answer number and ranking|	 
 		
